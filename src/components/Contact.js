@@ -10,7 +10,7 @@ class Contact extends Component {
         <h1>
           <Fade bottom cascade>
             {" "}
-            Contact me
+            Contact me.
           </Fade>
         </h1>
         <Fade bottom>
