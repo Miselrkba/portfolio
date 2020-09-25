@@ -121,7 +121,7 @@ li .link:hover {
 .work {
   margin: 20%;
 }
-.work .heading {
+.work .header-projects {
   font-family: "Montserrat", sans-serif;
   font-size: 5em;
   text-align: left;
@@ -192,7 +192,7 @@ li .link:hover {
     /* flex-direction: row; */
     /* justify-content: center; */
     align-items: center;
-    margin: 1em 1em 1em 1em;
+    margin: 1em 1em 1em 2.5em;
   }
 
   .header-title {
@@ -229,14 +229,51 @@ li .link:hover {
   }
 }
 
-/* Media Queries: Tabled Portrait */
-/* @media screen and (max-width: 768px) {
-  #primary {
-    width: 100%;
+/* Media Queries: small */
+@media (max-width: 520px) {
+  header {
+    display: flex;
+    align-items: center;
+    margin: 1em 1em 1em 2.5em;
   }
-  #secondary {
-    width: 100%;
-    margin: 0;
-    border: none;
+
+  .header-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5em;
+    text-align: left;
+    margin: 1em 1em 1em 1em;
   }
-} */
+
+  nav {
+    position: fixed;
+    display: flex;
+    margin-left: 17%;
+  }
+
+  .navigation {
+    opacity: 0
+  }
+
+  .about {
+    flex-direction: column;
+    margin: 1em 1em 1em 4em;
+    font-size: 9px;
+  }
+   
+  .work {
+    margin-top: 8em;
+    margin-left: 36px;
+    font-size: 9px;
+  }
+
+  .contact {
+    margin: 1em -5em 1em 4em;
+    font-size: 9px;
+  }
+
+  .work .work-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+}

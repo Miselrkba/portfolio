@@ -8,7 +8,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav>
-        <ul>
+        <ul className='navigation'>
           <li>
             <Link
               className="link"

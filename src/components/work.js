@@ -8,7 +8,7 @@ class Work extends Component {
   render() {
     return (
       <div>
-        <h1 className="heading">
+        <h1 className="header-projects">
           <Fade bottom cascade>
             Projects.
           </Fade>
