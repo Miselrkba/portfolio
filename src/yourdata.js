@@ -1,12 +1,10 @@
 export default {
-  
-  
   name: "Michael Huna",
   headerTagline: [
     //Line 1 For Header
     "Hello! 👋 You found me. I am Michael.",
     //Line 2 For Header
-    "Software developer ",
+    "React Software developer ",
     //Line 3 For Header
     "from Slovakia",
   ],
@@ -14,7 +12,7 @@ export default {
   contactEmail: "michaelhuna@outlook.com",
   // Add Your About Text Here
   abouttext:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I build awesome web experiences using React.js, JavaScript ES6, Html5 and Css3. I provide technical, creative, and business insights to all projects I work on. Build for flexibility and customization from the start. I plan responsive software for all mediums, screen sizes and device types.",
   aboutImage:
     "https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
   //Change This To Hide The Image of About Section (True Or False)
@@ -22,7 +20,7 @@ export default {
   // Change Projects Here
   projects: [
     {
-      id: 1, 
+      id: 1,
       title: "Project One", //Project Title - Add Your Project Title Here
       service: "UI/UX Design", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -32,7 +30,7 @@ export default {
       url: "/",
     },
     {
-      id: 2, 
+      id: 2,
       title: "Project Two",
       service: "Website Development",
       imageSrc:
@@ -40,7 +38,7 @@ export default {
       url: "/",
     },
     {
-      id: 3, 
+      id: 3,
       title: "Project Three",
       service: "Web App",
       imageSrc:
@@ -48,7 +46,7 @@ export default {
       url: "/",
     },
     {
-      id: 4, 
+      id: 4,
       title: "Project Four",
       service: "Branding",
       imageSrc:
