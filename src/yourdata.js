@@ -1,5 +1,6 @@
 import projectOneImage from "../src/images/interviewQuestions.png";
-import projectTwoImage from "../src/images/dedinky.jpg";
+import projectTwoImage from "../src/images/dedinky.png";
+import projectThreeImage from "../src/images/expressleads.png";
 
 export default {
   name: "Michael Huna",
@@ -30,29 +31,28 @@ export default {
     },
     {
       id: 2,
-      title: "Project Two",
-      service: "Website Development",
+      title: "Dedinky Chat App",
+      service: "Chat for villages in Ružomberok region",
       imageSrc: `${projectTwoImage}`,
-      url: "/",
-      gitUrl: "https://github.com/Miselrkba/interview-questions",
+      url: "https://dedinky.netlify.app/",
+      gitUrl: "https://github.com/Miselrkba/dediny-barebone/tree/newfeatures",
     },
     {
       id: 3,
-      title: "Project Three",
-      service: "Web App",
-      imageSrc:
-        "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-      url: "/",
-      gitUrl: "https://github.com/Miselrkba/interview-questions",
+      title: "XpressLeads Sales Helper",
+      service: "Productivity app for sales people. Data fetched from API. ",
+      imageSrc: `${projectThreeImage}`,
+      url: "https://xpressleads.netlify.app/",
+      gitUrl: "https://github.com/Miselrkba/leads",
     },
     {
       id: 4,
       title: "Project Four",
-      service: "Branding",
+      service: "UNDER CONSTRUCTION",
       imageSrc:
         "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-      url: "/",
-      gitUrl: "https://github.com/Miselrkba/interview-questions",
+      url: '/',
+      gitUrl: "/",
     },
 
     /*

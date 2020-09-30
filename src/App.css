@@ -48,7 +48,7 @@ header {
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   z-index: 100;
   display: flex;
   margin-left: 42%;
@@ -205,7 +205,7 @@ li .link:hover {
   }
 
   nav {
-    position: fixed;
+    position: absolute;
     display: flex;
     margin-left: 17%;
   }
@@ -247,7 +247,7 @@ li .link:hover {
   }
 
   nav {
-    position: fixed;
+    position: absolute;
     display: flex;
     margin-left: 17%;
   }

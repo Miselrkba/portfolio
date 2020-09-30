@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 
 class Work extends Component {
- 
+
   render() {
     return (
       <div>
@@ -23,12 +23,12 @@ class Work extends Component {
               imageSrc={project.imageSrc}
               url={project.url}
             ></Project>
-            <button className='button link-button'>
+            <button className='button link-button' >
               <a className='link-button-text'  target="_blank" href={project.url} rel="noopener noreferrer">
                 Live Demo
               </a>
             </button>
-            <button className='button link-button'>
+            <button className='button link-button' >
               <a className='link-button-text'  target="_blank" href={project.gitUrl} rel="noopener noreferrer">
                 GitHub
               </a>
