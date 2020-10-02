@@ -19,7 +19,7 @@ class Header extends Component {
         </header>
         <Fade bottom>
           <p className="header-title">
-            <Typed strings={[data.headerTagline[0]]}/>
+            {[data.headerTagline[0]]}
             <br></br>
             <Typed
               strings={[data.headerTagline[1]]}
@@ -31,7 +31,7 @@ class Header extends Component {
               backDelay={1}
               fadeOut={false}
               fadeOutDelay={100}
-              loopCount={0}
+              loopCount={1}
               showCursor
               cursorChar="|"
             />
