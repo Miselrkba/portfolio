@@ -43,5 +43,3 @@ class Work extends Component {
 
 export default Work;
 
-
-// ran production build
