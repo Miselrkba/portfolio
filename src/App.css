@@ -16,10 +16,6 @@ body {
   border-bottom: 2px solid #ffc107;
 }
 
-.about-image {
-  width: 27%;
-}
-
 .heading-background {
   position: fixed;
   opacity: 0.05;
