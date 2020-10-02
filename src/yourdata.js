@@ -6,11 +6,11 @@ export default {
   name: "Michael Huna",
   headerTagline: [
     //Line 1 For Header
-    "Hello! 👋 You found me. I am Michael.",
+    "Hello! 👋 I am Michael, a software developer.",
     //Line 2 For Header
-    "React Software developer ",
+    "Welcome to my website. Feel free to check out my projects below...",
     //Line 3 For Header
-    "from Slovakia",
+    "",
   ],
   //Contact Email
   contactEmail: "michaelhuna@outlook.com",
