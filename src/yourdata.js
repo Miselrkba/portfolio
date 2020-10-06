@@ -24,7 +24,7 @@ export default {
       title: "Interview Questions", //Project Title - Add Your Project Title Here
       service: "React, JavaScript, Html and Css job interview questions", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: `https://images.pexels.com/photos/4342127/pexels-photo-4342127.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940`,
+      imageSrc: `https://free-images.com/lg/89ce/interview_job_skills_employment.jpg`,
       //Project URL - Add Your Project Url Here
       url: "https://interview-questions-react.netlify.app/",
       gitUrl: "https://github.com/Miselrkba/interview-questions",
@@ -33,7 +33,7 @@ export default {
       id: 2,
       title: "Dedinky Chat App",
       service: "Chat for villages in Ružomberok region",
-      imageSrc: `https://images.pexels.com/photos/4049992/pexels-photo-4049992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940`,
+      imageSrc: `https://image.freepik.com/free-photo/cityscape-icon-symbol-web-element_1150-1791.jpg`,
       url: "https://dedinky.netlify.app/",
       gitUrl: "https://github.com/Miselrkba/dediny-barebone/tree/newfeatures",
     },
