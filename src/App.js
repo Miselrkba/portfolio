@@ -1,12 +1,12 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
 
-import Header from "./components/Header";
-import About from "./components/About";
-import Work from "./components/Work";
-import Contact from "./components/Contact";
+import Header from './components/Header';
+import About from './components/About';
+import Work from './components/Work';
+import Contact from './components/Contact';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div className="app-header">
@@ -23,6 +23,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
