@@ -22,15 +22,21 @@ const Contact = () => {
             {data.contactEmail}
           </a>
           <ul className="social">
-            {data.social.map((link, index) => (
-              <li key={index}>
-                <button type="button" className="button social">
-                  <a target="_blank" rel="noopener noreferrer" href={link.url}>
-                    {link.name}
-                  </a>
-                </button>
-              </li>
-            ))}
+            {data.social.map((link) => {
+              return (
+                <li key={link.url}>
+                  <button type="button" className="button social">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={link.url}
+                    >
+                      {link.name}
+                    </a>
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </Fade>
