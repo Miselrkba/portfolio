@@ -1,14 +1,13 @@
-import React, { Component } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 class Navbar extends Component {
-  
   scrollToTop = () => {
     scroll.scrollToTop();
   };
   render() {
     return (
       <nav>
-        <ul className='navigation'>
+        <ul className="navigation">
           <li>
             <Link
               className="link"

@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   max-width: 83vw;
   max-height: 100vh;
   overflow: auto;
@@ -35,7 +35,7 @@ header {
 
 .header-title {
   position: flex;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   text-align: left;
   margin-left: 20%;
@@ -54,6 +54,7 @@ nav li {
   display: inline-block;
   cursor: pointer;
 }
+
 nav li .link {
   text-decoration: none;
   color: black;
@@ -65,6 +66,12 @@ nav li .link {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
+
+nav li:hover {
+  border-bottom: 2px solid #ffc107;
+  font-size: 1.2em;
+}
+
 li .link:hover {
   opacity: 1;
 }
@@ -82,7 +89,7 @@ li .link:hover {
 }
 
 .about-content h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
 }
@@ -109,20 +116,20 @@ li .link:hover {
   opacity: 0.8;
 }
 .button a {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   text-decoration: none;
 }
-.link-button{
+.link-button {
   margin: 3% 10%;
-  background: #9352ae
+  background: #9352ae;
 }
 
 .work {
   margin: 20%;
 }
 .work .header-projects {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
 }
@@ -144,7 +151,7 @@ li .link:hover {
   text-align: left;
 }
 .contact h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
 }
@@ -194,7 +201,7 @@ li .link:hover {
   }
 
   .header-title {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.5em;
     text-align: left;
     margin: 1em 1em 1em 1em;
@@ -236,7 +243,7 @@ li .link:hover {
   }
 
   .header-title {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.5em;
     text-align: left;
     margin: 1em 1em 1em 1em;
@@ -249,7 +256,7 @@ li .link:hover {
   }
 
   .navigation {
-    opacity: 0
+    opacity: 0;
   }
 
   .about {
@@ -257,7 +264,7 @@ li .link:hover {
     margin: 1em 1em 1em 4em;
     font-size: 9px;
   }
-   
+
   .work {
     margin-top: 8em;
     margin-left: 36px;
