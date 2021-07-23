@@ -35,11 +35,13 @@ export default {
     },
     {
       id: 2,
-      title: 'Dedinky Chat App',
-      service: 'Chat for villages in Ružomberok region',
-      imageSrc: chatImg,
-      url: 'https://dedinky.netlify.app/',
-      gitUrl: 'https://github.com/Miselrkba/dediny-barebone/tree/newfeatures',
+      title: 'Leonides Real Estate Company',
+      service: 'Beautiful real estate business landing page ',
+      // add project img here
+      imageSrc: spartanImg,
+      // add project url here
+      url: 'https://leonides.netlify.app/',
+      gitUrl: 'https://github.com/Miselrkba/leonides-website-react',
     },
     {
       id: 3,
@@ -71,13 +73,13 @@ export default {
     },
     {
       id: 6,
-      title: 'Leonides Real Estate Company',
-      service: 'Beautiful real estate business landing page ',
+      title: 'Multi-role Website',
+      service: 'React & TypeScript, under construction...',
       // add project img here
-      imageSrc: spartanImg,
+      imageSrc: chatImg,
       // add project url here
-      url: 'https://leonides.netlify.app/',
-      gitUrl: 'https://github.com/Miselrkba/leonides-website-react',
+      url: 'https://multi-role-website.netlify.app/',
+      gitUrl: 'https://github.com/Miselrkba/multi-role-website-react-ts',
     },
   ],
   social: [

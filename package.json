@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": false,
+  "license": "MIT",
   "dependencies": {
     "netlify-cli": "^3.17.2",
     "react": "^16.8.6",
